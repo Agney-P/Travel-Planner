@@ -1,0 +1,58 @@
+/* Custom background for result page */
+.result-bg {
+    background: url('/static/image.png') no-repeat center center fixed;
+    background-size: cover;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.card {
+    border-radius: 1.5rem !important;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+.card-title {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.form-control, .form-select {
+    font-size: 1.05rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid #dbeafe;
+    background: #f1f5f9;
+    box-shadow: none;
+}
+.form-label {
+    font-weight: 500;
+    color: #374151;
+}
+.btn-primary, .btn-outline-primary {
+    box-shadow: 0 2px 8px rgba(0,123,255,0.12);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.btn-secondary {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.list-group-item {
+    font-size: 1.08rem;
+    background: #f8fafc;
+    border: none;
+    border-radius: 1rem !important;
+    margin-bottom: 0.3rem;
+}
+.icon {
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+@media (max-width: 992px) {
+    .container {
+        padding: 1rem !important;
+    }
+    .card {
+        margin-bottom: 1rem;
+    }
+}
